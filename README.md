@@ -13,6 +13,9 @@ https://www.bilibili.com/video/BV1bEM3zEEzq?vd_source=6676309e77ea6c150e8afa91e2
 【TonyPi 机器人小苹果舞蹈】  
 apple_dance/d6a.tar
 
+## 部分代码说明
+robot.py 可以实现动作和音乐的同步关闭，使用多线程实现
+
 ## 免责声明  
 本项目仅供学习参考，**严禁商用**。
 
