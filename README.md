@@ -14,7 +14,7 @@ https://www.bilibili.com/video/BV1bEM3zEEzq?vd_source=6676309e77ea6c150e8afa91e2
 apple_dance/d6a.tar
 
 ## 部分代码说明
-robot.py 可以实现动作和音乐的同步关闭，使用多线程实现
+robot.py 通过多线程来同时播放音乐和执行舞蹈动作，实现动作和音乐的同步。
 
 ## 免责声明  
 本项目仅供学习参考，**严禁商用**。
