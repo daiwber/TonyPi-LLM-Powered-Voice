@@ -3,21 +3,13 @@ import pygame
 
 import threading
 
-# 若没有将API Key配置到环境变量中，需将下面这行代码注释放开，并将apiKey替换为自己的API Key
-# dashscope.api_key = "sk-6964cc0a9f8747d5869fab94f5588d55"
-# model = "cosyvoice-v1"
-# voice = "longxiaochun"
-
-# synthesizer = SpeechSynthesizer(model=model, voice=voice)
-# audio = synthesizer.call("今天天气怎么样？今天天气怎么样？今天天气怎么样？今天天气怎么样？今天天气怎么样？")
-
 import dashscope
 from dashscope import SpeechSynthesizer
 import pygame
 import time
 
 # 设置API Key
-dashscope.api_key = "sk-6964cc0a9f8747d5869fab94f5588d55"
+dashscope.api_key = "sk-6964cc0a9f8747d58x"
 file_path = '/home/pi/TonyPi/OpenVINO/output.txt'
 
 # 读取文件内容到变量
