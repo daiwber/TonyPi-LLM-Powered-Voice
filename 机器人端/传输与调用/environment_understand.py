@@ -107,7 +107,7 @@ def file_to_base64(file_path):
 
 
 base_url = 'https://api.mindcraft.com.cn/v1/'
-api_key = 'MC-FC7B52EE000042Fxxxxx'
+api_key = 'MC-FC7Bxxxxxxxx'
 
 client = OpenAI(base_url=base_url, api_key=api_key)
 
