@@ -10,7 +10,7 @@ import pygame
 import time
 
 # 设置API Key
-dashscope.api_key = "sk-6964cc0a9f8747dx"
+dashscope.api_key = "sk-6964cxxxxx"
 file_path = '/home/pi/TonyPi/OpenVINO/temp/ai_response.txt'
 
 # 读取文件内容到变量
