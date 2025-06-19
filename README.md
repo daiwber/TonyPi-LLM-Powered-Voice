@@ -22,7 +22,7 @@ https://www.bilibili.com/video/BV1xhNbzpEDY?vd_source=6676309e77ea6c150e8afa91e2
 
 ### PC 端功能
 
-  * **目标检测服务器** ：部署 YOLOv5 模型，提供物体检测服务（`Yolov5.py`）。
+  * **目标检测服务器** ：部署 YOLOv5 模型，提供物体检测服务（`yolov5.py`）。
   * **语音识别与控制** ：通过语音指令调用大模型，生成决策并传输给机器人执行（`Agent_go.py`）。
   * **大模型应用** ：利用大模型进行语音合成和环境理解（`Utils_llm.py`）。
 
