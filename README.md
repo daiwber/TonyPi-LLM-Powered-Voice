@@ -31,11 +31,11 @@ https://www.bilibili.com/video/BV1xhNbzpEDY?vd_source=6676309e77ea6c150e8afa91e2
 ### 环境准备
 
   * **树莓派配置** ：安装 Python 3 及必备库，如 opencv-python、numpy、pytorch、flask 等；配置摄像头和麦克风；设置环境变量（如 API 密钥等）。
-  * **PC 端配置** ：同样需要安装 Python 3 和相关库，并配置目标检测服务器（`Yolov5.py`），确保其与机器人端网络连通。
+  * **PC 端配置** ：同样需要安装 Python 3 和相关库，并配置目标检测服务器（`yolov5.py`），确保其与机器人端网络连通。
 
 ### 启动项目
 
-  1. 启动 PC 端目标检测服务器：`python3 Yolov5.py`。
+  1. 启动 PC 端目标检测服务器：`python3 yolov5.py`。
   2. 启动机器人端功能：根据需要运行不同的功能脚本，例如`python3 Detect.py`，或者通过语音控制脚本启动其他功能：`python3 ASRControl.py`。
   3. 执行特定任务：通过语音指令控制机器人执行动作，或运行特定功能脚本以完成颜色识别、物体检测等任务。
 
